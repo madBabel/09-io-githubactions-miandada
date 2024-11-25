@@ -1,11 +1,11 @@
-Exercise
-# Ejercicio Combinado: Inputs y Outputs en GitHub Actions
+# Ejercicio: Inputs y Outputs en GitHub Actions
 
 ## Objetivo
 
 Explorar las formas de proveer entradas (inputs) y establecer salidas (outputs) en flujos de trabajo de GitHub Actions.
 
 ## Tareas
+0. Preparación --> Crear un nuevo environment como mínimo llamado `int`
 
 1. Crear un archivo llamado `09-input-outputs.yml` en la carpeta `.github/workflows` en la raíz del repositorio. Los datos del flujo de trabajo deben ser los siguientes:
 
@@ -49,7 +49,7 @@ Explorar las formas de proveer entradas (inputs) y establecer salidas (outputs) 
    - ¿Cómo afectaron los valores de `dry-run`, `target`, `tag` y `build-status` a los resultados de los trabajos `build` y `deploy`?
    - Reflexionar sobre cómo se utilizaron las salidas (`outputs`) entre los trabajos.
   
-
+5. Relanzar manualmente un workflow para el target int y el tag v2, y cuando acabe, lanzar el Autograde
 ## Tips
 
 Para agregar valores a un archivo, podemos usar la siguiente sintaxis: `echo "<contenido de la línea>" >> "<ruta del archivo>"`
